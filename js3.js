@@ -1,20 +1,18 @@
-while(1) {
-let numIn = parseInt(prompt("6"))
+let num1 = parseInt(prompt("Enter Num 1"))
+let num1 = parseInt(prompt("Enter Num 2"))
  
-let result = numIn % 2
+let result = num1/num2
  
-console.log(Boolean(!(result == 1)))
-console.log(Boolean(result == 0))
-}
+alert(result)
 
 
-while(1){
+
 let num1 = parseInt(prompt("7"))
 let num2 = parseInt(prompt("8"))
 let result = num1 % num2
  
 console.log(Boolean(result == 0))
-}
+
 
 
 let numOfStudents = 344
@@ -27,3 +25,5 @@ fullBuses++
  
 console.log(fullBuses)
 
+// console.log(Boolean(!(result == 1)))
+// console.log(Boolean(result == 0))
