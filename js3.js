@@ -32,32 +32,41 @@
 // console.log(Rainbow)
 
 //Date Task
-let Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-alert("Pick a Number from 0-6")
+// let Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+// alert("Pick a Number")
 
-let dayNumber = 6;
+// let dayNumber = 6;
 
-if (dayNumber === 0) {
-  console.log("Sunday");
+// if (dayNumber === 0) {
+//   console.log("Sunday");
+// }
+// else if (dayNumber === 1) {
+//   console.log("Monday");
+// }
+// else if (dayNumber === 2) {
+//   console.log("Tuesday");
+// }
+// else if (dayNumber === 3) {
+//   console.log("Wednesday");
+// }
+// else if (dayNumber === 4) {
+//   console.log("Thursday");
+// }
+// else if (dayNumber === 5) {
+//   console.log("Friday");
+// }
+// else if (dayNumber === 6) {
+//   console.log("Saturday");
+// }
+// else {
+//   console.log("Invalid day number")
+// } 
+
+//Arrays Exercise
+let password = prompt(`Pass?`);
+
+while (password != `Snoops`) {
+    password = prompt(`You got wrong now i'm Angy`);
 }
-else if (dayNumber === 1) {
-  console.log("Monday");
-}
-else if (dayNumber === 2) {
-  console.log("Tuesday");
-}
-else if (dayNumber === 3) {
-  console.log("Wednesday");
-}
-else if (dayNumber === 4) {
-  console.log("Thursday");
-}
-else if (dayNumber === 5) {
-  console.log("Friday");
-}
-else if (dayNumber === 6) {
-  console.log("Saturday");
-}
-else {
-  console.log("Invalid day number")
-} 
+console.log(`Let's meet at the ${password}`);
+
