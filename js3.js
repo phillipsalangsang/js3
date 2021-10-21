@@ -33,7 +33,7 @@
 
 //Date Task
 let Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-alert(dayNumber[0,6])
+alert("Pick a Number from 0-6")
 
 let dayNumber = 6;
 
