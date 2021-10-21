@@ -32,7 +32,7 @@
 // console.log(Rainbow)
 
 //Date Task
-let dayNumber = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+let Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 alert(dayNumber[0,6])
 
 let dayNumber = 6;
