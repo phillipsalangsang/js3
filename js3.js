@@ -63,10 +63,16 @@
 // } 
 
 //Arrays Exercise
-let password = prompt(`Pass?`);
+let password = prompt(`Enter password:`, ``)
+let n = 0
 
-while (password != `Snoops`) {
-    password = prompt(`You got wrong now i'm Angy`);
+while (password !== `Snoops`) {
+    n++
+    password = prompt (`Failed attempts: ${n}`, ``)
 }
-console.log(`Let's meet at the ${password}`);
+
+alert (`Welcome: Took ${n} attempts`)
+
+//Exercise 2
+let numbers = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`]
 
